@@ -1,0 +1,23 @@
+{
+  "name": "ng-pubsub",
+  "authors": [
+    "byrenx <bayron.jofel@gmail.com>"
+  ],
+  "description": "",
+  "main": "ng-pubsub.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "remarkable-bootstrap-notify": "^3.1.3"
+  }
+}
