@@ -36,7 +36,7 @@
     }
 
     function error(message, position){
-      return notify("error", message, position);
+      return notify("danger", message, position);
     }
 
     return notifBoxService;
