@@ -13,7 +13,14 @@
     notifBoxService.error = error;
 
     function notify(type, message, position){
-      $.notify({'type': type, 'message': message});
+      var alignment = position != undefined? position.split('-') : ['top', 'right'];
+      $.notify(
+        // options
+        {'message': message},
+        //settings
+        {'type': type,
+         'placement': {from: alignment[0],
+                       align: alignment[1]}});
     }
 
     function info(message, position){
