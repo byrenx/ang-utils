@@ -1,10 +1,10 @@
 {
-  "name": "ng-pubsub",
+  "name": "ang-utils",
   "authors": [
     "byrenx <bayron.jofel@gmail.com>"
   ],
   "description": "",
-  "main": "ng-pubsub.js",
+  "main": "",
   "moduleType": [
     "globals"
   ],
